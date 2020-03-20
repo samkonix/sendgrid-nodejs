@@ -3,12 +3,19 @@
 /**
  * Dependencies
  */
-const EmailAddress = require('./email-address');
-const toCamelCase = require('../helpers/to-camel-case');
-const toSnakeCase = require('../helpers/to-snake-case');
-const deepClone = require('../helpers/deep-clone');
-const deepMerge = require('deepmerge');
-const wrapSubstitutions = require('../helpers/wrap-substitutions');
+// const EmailAddress = require('./email-address');
+// const toCamelCase = require('../helpers/to-camel-case');
+// const toSnakeCase = require('../helpers/to-snake-case');
+// const deepClone = require('../helpers/deep-clone');
+// const deepMerge = require('deepmerge');
+// const wrapSubstitutions = require('../helpers/wrap-substitutions');
+
+import EmailAddress from "./email-address.js";
+import toCamelCase from "../helpers/to-camel-case.js";
+import toSnakeCase from "../helpers/to-snake-case.js";
+import deepClone from "../helpers/deep-clone.js";
+import deepMerge from "deepmerge";
+import wrapSubstitutions from "../helpers/wrap-substitutions.js";
 
 /**
  * Personalization class

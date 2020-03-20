@@ -3,11 +3,17 @@
 /**
  * Dependencies
  */
-const toCamelCase = require('../helpers/to-camel-case');
-const toSnakeCase = require('../helpers/to-snake-case');
-const deepClone = require('../helpers/deep-clone');
-const fs = require('fs');
-const path = require('path');
+// const toCamelCase = require('../helpers/to-camel-case');
+// const toSnakeCase = require('../helpers/to-snake-case');
+// const deepClone = require('../helpers/deep-clone');
+// const fs = require('fs');
+// const path = require('path');
+
+import toCamelCase from "../helpers/to-camel-case.js";
+import toSnakeCase from "../helpers/to-snake-case.js";
+import deepClone from "../helpers/deep-clone.js"
+import fs from "fs";
+import path from "path";
 
 /**
  * Attachment class
@@ -184,4 +190,5 @@ class Attachment {
 }
 
 //Export class
-module.exports = Attachment;
+// module.exports = Attachment;
+export default Attachment;

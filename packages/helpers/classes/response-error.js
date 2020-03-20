@@ -3,7 +3,9 @@
 /**
  * Dependencies
  */
-const chalk = require('chalk');
+// const chalk = require('chalk');
+
+import chalk from "halk";
 
 /**
  * Response error class
@@ -63,4 +65,5 @@ class ResponseError extends Error {
 }
 
 //Export
-module.exports = ResponseError;
+// module.exports = ResponseError;
+export default ResponseError;

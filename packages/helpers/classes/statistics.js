@@ -3,8 +3,11 @@
 /**
  * Dependencies
  */
-const toCamelCase = require('../helpers/to-camel-case');
-const deepClone = require('../helpers/deep-clone');
+// const toCamelCase = require('../helpers/to-camel-case');
+// const deepClone = require('../helpers/deep-clone');
+
+import toCamelCase from "../helpers/to-camel-case.js";
+import deepClone from "../helpers/deep-clone.js";
 
 /**
  * Options
@@ -280,4 +283,5 @@ class Statistics {
 }
 
 //Export class
-module.exports = Statistics;
+// module.exports = Statistics;
+export default Statistics;

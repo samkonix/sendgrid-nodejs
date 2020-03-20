@@ -122,4 +122,5 @@ class EmailAddress {
 }
 
 //Export class
-module.exports = EmailAddress;
+//module.exports = EmailAddress;
+export default EmailAddress;

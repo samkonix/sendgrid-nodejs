@@ -3,9 +3,14 @@
 /**
  * Dependencies
  */
-const {Client} = require('@sendgrid/client');
-const {classes: {Mail}} = require('@sendgrid/helpers');
+//const {Client} = require('@sendgrid/client');
+//const {classes: {Mail}} = require('@sendgrid/helpers');
 
+import clientClass from "@sendgrid/client";
+import helpersClass from "@sendgrid/helpers";
+
+const { Client } = clientClass;
+const { Mail } = helpersClass;
 /**
  * Mail service class
  */
@@ -216,4 +221,5 @@ class MailService {
 }
 
 //Export class
-module.exports = MailService;
+//module.exports = MailService;
+export default MailService;

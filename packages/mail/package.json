@@ -20,6 +20,7 @@
     "url": "git://github.com/sendgrid/sendgrid-nodejs.git"
   },
   "main": "index.js",
+  "type": "module",
   "engines": {
     "node": ">=6.0.0"
   },

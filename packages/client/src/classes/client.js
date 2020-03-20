@@ -3,17 +3,23 @@
 /**
  * Dependencies
  */
-const http = require('request');
-const pkg = require('../../package.json');
-const {
-  helpers: {
-    mergeData,
-  },
-  classes: {
-    ResponseError,
-  },
-} = require('@sendgrid/helpers');
+// const http = require('request');
+// const pkg = require('../../package.json');
+// const {
+//   helpers: {
+//     mergeData,
+//   },
+//   classes: {
+//     ResponseError,
+//   },
+// } = require('@sendgrid/helpers');
 
+import http from "request";
+import pkg from "../../package.json";
+import { helpers, classes } from "@sendgrid/helpers";
+
+const { mergeData } = helpers;
+const { ResponseError } = classes;
 /**
  * Twilio SendGrid REST Client
  */

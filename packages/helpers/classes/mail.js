@@ -3,13 +3,21 @@
 /**
  * Dependencies
  */
-const EmailAddress = require('./email-address');
-const Personalization = require('./personalization');
-const toCamelCase = require('../helpers/to-camel-case');
-const toSnakeCase = require('../helpers/to-snake-case');
-const deepClone = require('../helpers/deep-clone');
-const arrayToJSON = require('../helpers/array-to-json');
-const { DYNAMIC_TEMPLATE_CHAR_WARNING } = require('../constants');
+// const EmailAddress = require('./email-address');
+// const Personalization = require('./personalization');
+// const toCamelCase = require('../helpers/to-camel-case');
+// const toSnakeCase = require('../helpers/to-snake-case');
+// const deepClone = require('../helpers/deep-clone');
+// const arrayToJSON = require('../helpers/array-to-json');
+// const { DYNAMIC_TEMPLATE_CHAR_WARNING } = require('../constants');
+
+import EmailAddress from "./email-address.js";
+import Personalization from "./personalization.js";
+import toCamelCase from "../helpers/to-camel-case.js";
+import toSnakeCase from "../helpers/to-snake-case.js";
+import deepClone from "../helpers/deep-clone.js";
+import arrayToJSON from "../helpers/array-to-json.js";
+import { DYNAMIC_TEMPLATE_CHAR_WARNING } from "../constants/index.js";
 
 /**
  * Mail class
@@ -640,4 +648,5 @@ class Mail {
 }
 
 //Export class
-module.exports = Mail;
+// module.exports = Mail;
+export default Mail;

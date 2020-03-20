@@ -15,6 +15,7 @@
   ],
   "license": "MIT",
   "homepage": "https://sendgrid.com",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git://github.com/sendgrid/sendgrid-nodejs.git"
