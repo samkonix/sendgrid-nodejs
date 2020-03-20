@@ -1,5 +1,5 @@
 {
-  "name": "@sendgrid/client",
+  "name": "@bubblemind/client",
   "description": "Twilio SendGrid NodeJS API client",
   "version": "6.5.5",
   "author": "Twilio SendGrid <dx@sendgrid.com> (sendgrid.com)",
@@ -18,17 +18,17 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sendgrid/sendgrid-nodejs.git"
+    "url": "git://github.com/samkonix/sendgrid-nodejs.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "main": "index.js",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=12.0.0"
   },
   "dependencies": {
-    "@sendgrid/helpers": "^6.5.5",
+    "@bubblemind/helpers": "^6.5.5",
     "@types/request": "^2.48.4",
     "request": "^2.88.0"
   },
@@ -38,5 +38,11 @@
     "api",
     "mail",
     "sendgrid"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/samkonix/sendgrid-nodejs/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

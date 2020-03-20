@@ -16,7 +16,7 @@
 
 import http from "request";
 import pkg from "../../package.json";
-import { helpers, classes } from "@sendgrid/helpers";
+import { helpers, classes } from "@bubblemind/helpers";
 
 const { mergeData } = helpers;
 const { ResponseError } = classes;
